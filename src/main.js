@@ -5,7 +5,7 @@ import App from './App'
 import common from './common/common'
 
 Vue.use(common)
-Vue.prototype.halo = "hello"
+Vue.prototype.halo = 'hello'
 Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({

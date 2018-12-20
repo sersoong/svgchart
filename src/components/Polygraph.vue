@@ -6,6 +6,7 @@
 
 <script>
 export default {
+    name:'Polygraph'
 //     props:['stats'],
 //     computed:{
 //         points: function () {

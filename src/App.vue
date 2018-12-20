@@ -1,24 +1,24 @@
 <template>
-  <div id="app">
-      <svg width="200" height="200">
-        <polygragh></polygragh>
-      </svg>
-      
-  </div>
+    <div id="app">
+        <svg width="200" height="200">
+            <polygragh></polygragh>
+        </svg>
+    </div>
 </template>
 
 <script>
 import Polygragh from './components/Polygraph.vue'
 
 export default {
-  name: 'App',
-  components: {
-      Polygragh
-  },
-  created:function () { 
-      console.log(this.test())
-   }
+    name: 'App',
+    components: {
+        Polygragh
+    },
+    created:function () { 
+        console.log(this.test())
+    }
 }
+
 </script>
 
 <style>
